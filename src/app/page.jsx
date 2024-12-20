@@ -1,27 +1,8 @@
-import React from 'react'
-import Navbar from "./component/navbar"
-import Button from "./component/button"
+import React from "react";
+import { FaChild } from "react-icons/fa";
 
 const page = () => {
-  return (
-    <div>
-      <div>Page</div>
-      <Navbar/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-    </div>
-  )
-}
+  return <div>Page</div>;
+};
 
-export default page
+export default page;
